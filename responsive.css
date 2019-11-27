@@ -1,0 +1,54 @@
+/*タプレット*/
+@media screen and (max-width: 852px) {
+    .skills {
+        display: block;
+    }
+    .skill-set {
+        flex-direction: column;
+          align-items: center;
+        padding: 20px; 0
+    }
+    
+    .skill-set-right {
+        padding: 10px 0;
+    }
+    
+    .skill-set-right h3 {
+       padding: 10px 0;
+    }
+    
+    .works {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .work {
+        padding-bottom: 20px;
+    }
+
+   
+}
+
+/*スマホ*/
+
+@media screen and (max-width: 479px) {
+    .top-portfolio {
+        font-size: 70px;
+    }
+    .header-select {
+        display: none;
+    }
+    
+    .send-botton {
+        padding: 15px 150px;
+    }
+    
+    .profiles {
+        flex-direction: column;
+    }
+    .image {
+       text-align: center; 
+    }
+    
+    
+}
